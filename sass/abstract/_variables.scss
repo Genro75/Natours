@@ -12,9 +12,10 @@ $color-tertiary-dark: #5643fa;
 
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eee;
+$color-grey: #777;
+$color-grey-dark: #999;
 
 $color-white: #fff;
-$color-grey: #777;
 $color-black: #000;
 
 //FONTS
@@ -30,3 +31,7 @@ $gutter-horizontal: 6rem;
 //SHADOW
 
 $shadow-primary: 0 1.5rem 4rem rgba($color-black, 0.15);
+
+//BORDER RADIUS
+
+$border-rad: 3px;

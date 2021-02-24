@@ -14,7 +14,7 @@
     width: 100%;
     backface-visibility: hidden;
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: $border-rad;
     box-shadow: $shadow-primary;
 
     &--front {
@@ -66,8 +66,8 @@
     background-blend-mode: screen;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-top-left-radius: $border-rad;
+    border-top-right-radius: $border-rad;
 
     &--1 {
       background-image: linear-gradient(
